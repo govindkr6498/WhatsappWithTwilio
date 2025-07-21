@@ -21,7 +21,7 @@ app.add_middleware(
 
 # Initialize the chatbot
 # pdf_path = 'C:/Users/admin/Documents/Document/Bot/src/FSTC_Contact.pdf'
-pdf_path = '/home/ubuntu/Emaar/Emaar_FAQ.pdf'
+pdf_path = '/home/ubuntu/WhatsappWithTwilio/Emaar_FAQ.pdf'
 chatbot = SalesRAGBot(pdf_path)
 
 class ChatInput(BaseModel):
