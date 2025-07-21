@@ -6,7 +6,7 @@ from main import SalesRAGAgent
 app = FastAPI()
 
 # Initialize chatbot with the specific PDF
-pdf_path = 'Emaar_FAQ.pdf'
+pdf_path = '/home/ubuntu/WhatsappWithTwilio/Emaar_FAQ.pdf'
 chatbot = SalesRAGAgent(pdf_path)
 
 @app.post("/webhook/whatsapp")
